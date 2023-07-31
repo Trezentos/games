@@ -1,0 +1,23 @@
+body, html {
+    width: 100%;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+canvas {
+    object-fit: contain;
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    margin: 0 auto;
+}
